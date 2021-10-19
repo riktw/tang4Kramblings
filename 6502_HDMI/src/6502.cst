@@ -1,0 +1,18 @@
+IO_LOC "hdmi_tx_clk_p" 28,27;
+IO_PORT "hdmi_tx_clk_p" PULL_MODE=NONE DRIVE=3.5;
+IO_LOC "hdmi_tx_p[0]" 30,29;
+IO_PORT "hdmi_tx_p[0]" PULL_MODE=NONE DRIVE=3.5;
+IO_LOC "hdmi_tx_p[1]" 32,31;
+IO_PORT "hdmi_tx_p[1]" PULL_MODE=NONE DRIVE=3.5;
+IO_LOC "hdmi_tx_p[2]" 35,34;
+IO_PORT "hdmi_tx_p[2]" PULL_MODE=NONE DRIVE=3.5;
+
+IO_LOC "n_reset" 14;
+IO_PORT "n_reset" PULL_MODE=UP;
+IO_LOC "clk" 45;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "ps2Clk" 13;
+IO_PORT "ps2Clk" IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+IO_LOC "ps2Data" 33;
+IO_PORT "ps2Data" IO_TYPE=LVCMOS33 PULL_MODE=DOWN;

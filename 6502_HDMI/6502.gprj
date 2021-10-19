@@ -1,0 +1,45 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="" pn="">gw1nsr4c-009</Device>
+    <FileList>
+        <File path="src/async_reset.v" type="file.verilog" enable="1"/>
+        <File path="src/char_buffer.v" type="file.verilog" enable="1"/>
+        <File path="src/char_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/clock_generator.v" type="file.verilog" enable="1"/>
+        <File path="src/command_handler.v" type="file.verilog" enable="1"/>
+        <File path="src/cursor.v" type="file.verilog" enable="1"/>
+        <File path="src/cursor_blinker.v" type="file.verilog" enable="1"/>
+        <File path="src/display_timings.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_generator.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_clkdiv.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pllvr.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard.v" type="file.verilog" enable="1"/>
+        <File path="src/keymap_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/serializer_10to1.v" type="file.verilog" enable="1"/>
+        <File path="src/simple_register.v" type="file.verilog" enable="1"/>
+        <File path="src/tmds_encoder_dvi.v" type="file.verilog" enable="1"/>
+        <File path="src/uart.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/video_generator.v" type="file.verilog" enable="1"/>
+        <File path="src/vt52.v" type="file.verilog" enable="1"/>
+        <File path="src/Microcomputer.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T65.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T65_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T65_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T65_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/bufferedUART.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_pllvr/pll_50.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_prom/basicRom.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_sp/gowin_sp.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/6502.cst" type="file.cst" enable="1"/>
+        <File path="src/gowin_clkdiv.ipc" type="file.other" enable="1"/>
+        <File path="src/gowin_clkdiv.mod" type="file.other" enable="1"/>
+        <File path="src/gowin_pllvr.ipc" type="file.other" enable="1"/>
+        <File path="src/gowin_pllvr.mod" type="file.other" enable="1"/>
+    </FileList>
+</Project>

@@ -1,0 +1,52 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="" pn="">gw1nsr4c-009</Device>
+    <FileList>
+        <File path="src/hyper_xface.v.v" type="file.verilog" enable="1"/>
+        <File path="src/wb_hyper.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pllvr/gowin_pllvr.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/neorv32_ProcessorTop_MinimalBoot.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_application_image.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_boot_rom.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_bootloader_image.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_bus_keeper.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_busswitch.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cfs.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_alu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_bus.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_control.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_cp_bitmanip.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_cp_fpu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_cp_muldiv.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_cp_shifter.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_decompressor.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_regfile.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_debug_dm.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_debug_dtm.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_dmem.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_fifo.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_gpio.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_icache.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_imem.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_mtime.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_neoled.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_package.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_pwm.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_slink.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_spi.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_sysinfo.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_test_setup_bootloader.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/neorv32_top.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_trng.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_twi.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_uart.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_wdt.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_wishbone.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_xirq.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
